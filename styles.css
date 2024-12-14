@@ -1,0 +1,323 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #4CAF50;
+}
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.hero-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Pencarian Tanaman Herbal */
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+#searchBar {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+/* Daftar Tanaman Herbal */
+.herb-list {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+.herb-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.herb-item {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.herb-item:hover {
+    transform: scale(1.05);
+}
+
+.herb-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.herb-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+/* Bagian Tim */
+.team-section {
+    padding: 7rem;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.team-section h2 {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-card {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+
+.team-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.team-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-contact,
+.footer-links {
+    flex: 2;
+    margin: 5px;
+}
+
+.footer-map {
+    flex: 1;
+    margin: 5px;
+    max-width: 400px;
+}
+
+.footer-map iframe {
+    width: 400px;
+    height: 250px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.footer-contact h3,
+.footer-links h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+.footer-contact p,
+.footer-links ul {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #bbb;
+}
+
+/* Media Queries untuk Responsif */
+@media (max-width: 768px) {
+    /* Navbar */
+    nav ul {
+        flex-direction: column; /* Susun vertikal */
+        align-items: center; /* Pusatkan teks */
+    }
+
+    nav ul li {
+        margin: 0.5rem 0; /* Beri jarak antar item */
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column; /* Susun vertikal */
+        text-align: center; /* Pusatkan teks */
+        padding: 1rem; /* Kurangi padding */
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem; /* Kurangi ukuran font */
+    }
+
+    .hero-text p {
+        font-size: 1rem; /* Kurangi ukuran font */
+    }
+
+    .hero-image img {
+        width: 90%; /* Sesuaikan lebar */
+    }
+
+    /* Pencarian Tanaman Herbal */
+    #searchBar {
+        width: 95%; /* Lebar penuh dengan margin kecil */
+    }
+
+    /* Daftar Tanaman Herbal */
+    .herb-container {
+        flex-direction: column; /* Susun vertikal */
+    }
+
+    .herb-item {
+        width: 90%; /* Lebar penuh */
+    }
+
+    /* Modal */
+    .modal-content {
+        width: 90%; /* Sesuaikan lebar modal */
+    }
+
+    /* Bagian Tim */
+    .team-container {
+        flex-direction: column; /* Susun vertikal */
+    }
+
+    .team-card {
+        width: 90%; /* Lebar penuh */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Navbar */
+    nav {
+        padding: 0.5rem;
+    }
+
+    /* Hero Section */
+    .hero-text h1 {
+        font-size: 1.5rem; /* Kurangi lebih lanjut ukuran font */
+    }
+
+    .hero-text p {
+        font-size: 0.9rem; /* Kurangi lebih lanjut ukuran font */
+    }
+
+    .hero-image img {
+        width: 100%; /* Lebar penuh */
+    }
+
+    /* Pencarian Tanaman Herbal */
+    #searchBar {
+        padding: 8px; /* Kurangi padding */
+    }
+
+    /* Modal */
+    .modal-content {
+        padding: 15px; /* Kurangi padding modal */
+    }
+
+    /* Bagian Tim */
+    .team-card img {
+        width: 150px; /* Gambar lebih kecil */
+        height: 150px;
+    }
+
+    .team-card h3 {
+        font-size: 1rem; /* Kurangi ukuran font */
+    }
+
+    .team-card p {
+        font-size: 0.9rem; /* Kurangi ukuran font */
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-map {
+        margin-top: 20px;
+    }
+}

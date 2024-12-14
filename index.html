@@ -1,0 +1,1355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./Assets/Image/Logo.jpg" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fs-4">
+        <div class="container text-white">
+            <a class="navbar-brand" href="#">
+                <img src="./Assets/Image/Logo.jpg" alt="" width="50" height="44" class="d-inline-block align-text-top rounded-circle" >
+                Jamu ' AN Actually Nature
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#beranda">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#timkami">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#footer">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--Navbar-->
+
+    <!--Hero-->
+    <section id="beranda" class="hero">
+        <div class="hero-text">
+            <h1>Selamat Datang di Jamu ' AN Actually Nature</h1>
+            <p>Kami hadir untuk menyajikan berbagai informasi tentang khasiat tanaman herbal, jamu, dan obat tradisional lainnya. Dari manfaat kesehatan hingga cara penggunaannya, jadikan website ini panduan Anda menuju gaya hidup sehat yang alami.</p>
+        </div>
+        <div class="hero-image">
+            <img src="https://dekoruma.blog/wp-content/uploads/2018/05/tanaman-obat.jpg" alt="Tanaman Herbal">
+        </div>
+    </section>
+
+    <!-- Pencarian Tanaman Herbal -->
+    <section class="search-section">
+       <!-- Input untuk pencarian -->
+        <input type="text" id="searchInput" class="form-control mb-3" placeholder="Cari Tanaman Herbal...">
+    </section>
+
+    <!-- Daftar Tanaman Herbal -->
+    <section class="herb-list">
+        <h2>Daftar Tanaman & Obat Herbal</h2>
+        <div class="herb-container p-2 justify-content-center align-items-center" id="herbContainer">
+            <!-- Data Tanaman -->
+            <div id="daunbinahong" class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1604258349/attached_image/manfaat-daun-binahong-yang-sayang-untuk-dilewatkan.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Daun Binahong</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Daun Binahong</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1604258349/attached_image/manfaat-daun-binahong-yang-sayang-untuk-dilewatkan.jpg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Daun Binahong</h5>
+                            <h5><i>Anredera cordifolia</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Binahong merupakan salah satu tanaman yang memiliki beragam khasiat, termasuk mengobati berbagai penyakit kronis. Bahkan, hampir seluruh bagian tumbuhan ini bisa dimanfaatkan sebagai pengobatan alternatif. Manfaat binahong bisa didapatkan dengan cara mengonsumsi maupun mengoleskannya ke kulit.</p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">Beberapa senyawa alami di dalam daun binahong yang bermanfaat bagi kesehatan adalah flavonoid, saponin, dan tanin. Berkat berbagai kandungan dan khasiat tersebut, manfaat daun binahong yang bisa didapatkan adalah sebagai berikut:</p>
+                            <ol class="text-start">
+                                <li>Mempercepat penyembuhan luka baka</li>
+                                <li>Mengatasi Diare</li>
+                                <li>Mengatasi Jerawat</li>
+                                <li>Menurunkan risiko terjadinya katarak</li>
+                                <li>Mengatasi diabetes</li>
+                                <li>Mencegah terjadinya serangan jantung</li>
+                                <li>Meningkatkan fungsi ginjal</li>
+                                <li>Mengobati asam urat</li>
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara Mengolah Daun Binahong.Berikut ini adalah langkah pembuatannya:
+                                <ul class="text-start">
+                                    <li>Cuci bersih daun binahong dengan air mengalir.</li>
+                                    <li>Masukkan 5–6 lembar daun binahong ke dalam air panas.</li>
+                                    <li>Rebus selama 10 menit atau sampai mendidih.</li>
+                                    <li>Setelah matang, saring air rebusan tersebut dan dinginkan.</li>
+                                </ul>
+                                <p class="text-start">Tidak hanya diolah sebagai teh herbal, daun binahong juga bisa digunakan sebagai masker alami untuk mengatasi jerawat. Cara membuatnya pun cukup mudah
+                                    <ul class="text-start">
+                                        <li>Haluskan beberapa helai daun binahong dengan cara ditumbuk</li>
+                                        <li>kemudian campurkan sedikit air hingga menjadi pasta</li>
+                                        <li>Oleskan masker daun binahong ke bagian kulit wajah yang berjerawat dan diamkan selama 10 menit</li>
+                                        <li>alu bilas dengan air hingga bersih. Cara mengolah daun binahong ini juga bisa dilakukan untuk mendapatkan manfaat binahong dalam mengatasi luka</li>
+                                    </ul>
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            <!-- Data Tanaman Sirih-->
+            <div class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://asset.kompas.com/crops/r8TLA1DMA7iLjSxB31GWbYfyqFM=/162x56:838x507/1200x800/data/photo/2022/07/16/62d29e3f9ec37.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sirih</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sirihModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="sirihModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sirih</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://asset.kompas.com/crops/r8TLA1DMA7iLjSxB31GWbYfyqFM=/162x56:838x507/1200x800/data/photo/2022/07/16/62d29e3f9ec37.jpg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Sirih</h5>
+                            <h5><i>Piper betle L</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Sirih, atau Piper betle, merupakan tanaman yang memiliki berbagai manfaat kesehatan dan digunakan dalam pengobatan tradisional.</p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Beberapa manfaat utama dari sirih antara lain:
+                            </p>
+                            <ol class="text-start">
+                                <li>Meningkatkan Kesehatan Mulut: Daun sirih mengandung senyawa antiseptik yang dapat membantu mengatasi bau mulut, menjaga kebersihan gigi dan gusi, serta mencegah infeksi mulut.</li>
+                                <li>Mengatasi Masalah Pencernaan: Sirih dapat merangsang sekresi enzim pencernaan, membantu mengatasi gangguan pencernaan seperti perut kembung, mual, dan gangguan lambung.</li>
+                                <li>Meningkatkan Sirkulasi Darah: Sirih dipercaya dapat membantu memperlancar aliran darah, sehingga bermanfaat untuk mengatasi masalah sirkulasi darah dan mengurangi risiko pembekuan darah.</li>
+                                <li>Menjaga Kesehatan Kulit: Ekstrak daun sirih dapat digunakan untuk mengatasi infeksi kulit ringan, seperti jerawat dan gatal-gatal. Kandungan antiseptiknya juga membantu mempercepat penyembuhan luka</li>
+                                <li>Menurunkan Kadar Gula Darah: Beberapa penelitian menunjukkan bahwa sirih dapat membantu menurunkan kadar gula darah, yang bermanfaat bagi penderita diabetes.</li>
+                                <li>Meningkatkan Sistem Imun: Sirih kaya akan antioksidan yang membantu meningkatkan daya tahan tubuh.</li>
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara Membuat Ramuan Sirih:
+                                <p class="text-start">Berikut adalah beberapa cara membuat ramuan sirih untuk manfaat kesehatan tertentu:
+                                    <ol class="text-start">
+                                        <li>Ramuan untuk Kesehatan Mulut (Obat Kumur)</li>
+                                        <p>Bahan: 2-3 lembar daun sirih segar, air secukupnya</p>
+                                        <p>Cara Membuat: Rebus daun sirih dalam 2 gelas air hingga tersisa sekitar 1 gelas. Saring dan biarkan dingin. Gunakan air rebusan ini untuk berkumur setiap hari untuk menjaga kebersihan mulut.</p>
+                                        <li>Ramuan untuk Pencernaan</li>
+                                        <p>Bahan: 2-3 lembar daun sirih segar, 1 sendok teh madu, 1 gelas air panas.</p>
+                                        <p>Cara Membuat: Rebus daun sirih dalam air hingga mendidih. Setelah itu, saring airnya, tambahkan madu, dan minum ramuan ini 1-2 kali sehari untuk membantu melancarkan pencernaan.</p>
+                                    </ol>
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+
+            <!-- Data Tanaman Kunyit-->
+            <div id="kunyit" class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 17rem;">
+                <img class="card-img-top" src="https://static.honestdocs.id/system/blog_articles/main_hero_images/000/007/463/original/iStock-1190462955_%281%29.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Kunyit</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kunyitModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="kunyitModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sirih</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1604258349/attached_image/manfaat-daun-binahong-yang-sayang-untuk-dilewatkan.jpg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Kunyit</h5>
+                            <h5><i>Curcuma longa</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Kunyit adalah tanaman rimpang dari keluarga Zingiberaceae (jahe-jahean). Rimpangnya berwarna kuning cerah hingga oranye, dengan aroma khas.Tanaman ini tumbuh di daerah tropis dengan tanah subur dan kelembaban tinggi.
+                            Kunyit memiliki senyawa aktif bernama kurkumin yang memberikan warna kuning dan khasiat utama.</p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Beberapa manfaat utama dari kunyit antara lain:
+                            </p>
+                            <ol class="text-start">
+                                <li>Meredakan nyeri sendi</li>
+                                <p>Osteoarthritis adalah penyakit yang menyebabkan sendi menjadi nyeri, kaku, dan kehilangan kelenturannya. Penelitian menunjukkan bahwa mengonsumsi ekstrak kunyit dapat mengurangi rasa nyeri karena rempah ini memiliki efek antiradang dan antinyeri. Riset tersebut bahkan menyebutkan bahwa efek kunyit ini hampir sama dengan ibuprofen dalam mengatasi osteoarthritis</p>
+                                <li>Mencegah penyakit jantung</li>
+                                <p>Kunyit dapat membuat endotelium atau dinding pembuluh darah menjadi lebih rileks dan elastis sehingga aliran darah bisa lebih lancar. Berkat manfaatnya ini, kunyit juga baik dikonsumsi untuk mencegah penyakit jantung.</p>
+
+                                <p>Selain itu, kunyit juga memiliki sifat antioksidan dan antiinflamasi yang dapat mencegah terbentuknya plak di dalam pembuluh darah dan pembuluh darah kaku (aterosklerosis).</p>
+                                <li>Mengatasi gangguan saluran pencernaan</li>
+                                <p>Kurkumin yang terkandung di dalam kunyit terbukti efektif dalam mengatasi berbagai gangguan saluran pencernaan, seperti irritable bowel syndrome (IBS), dispepsia, tukak lambung, dan pankreatitis.</p>
+
+                                <p>Selain itu, kunyit yang mengandung kurkumin juga sering dijadikan sebagai salah satu alternatif obat penambah nafsu makan.</p>
+                                <li>Mengurangi kolesterol</li>
+                                <p>Konsumsi kunyit diketahui dapat menurunkan kadar kolesterol jahat (LDL) dan trigliserida di dalam tubuh. Dengan terkontrolnya kadar kolesterol, tubuh dapat terhindar dari bahaya kolesterol tinggi, seperti stroke, serangan jantung, atau penyakit arteri perifer.</p>
+                                <li>Mengontrol kadar gula darah</li>
+                                <p>Manfaat kunyit berikutnya adalah mampu melawan peradangan dan menjaga gula darah tetap stabil. Kurkumin juga dapat mencegah terjadinya resistensi insulin yang bisa menyebabkan beragam penyakit, termasuk diabetes tipe 2, obesitas, penyakit jantung, hingga PCOS.</p>
+                                <li>Mencegah kanker</li>
+                                <p>Kurkumin memiliki sifat antiinflamasi yang diketahui dapat menghambat pertumbuhan, perkembangan, dan penyebaran sel kanker. Selain itu, kurkumin juga mencegah angiogenesis, yaitu pembentukan pembuluh darah baru pada tumor.</p>
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara Mengelolah kunyit menjadi obat :
+                                <p class="text-start">Berikut adalah beberapa cara mengelolah kunyit untuk manfaat kesehatan :
+                                    <ol class="text-start">
+                                        <li>Minuman Kunyit</li>
+                                        <Air>Rebusan kunyit termasuk minuman herbal yang populer. Anda bisa membuat minuman ini dengan memasukkan rimpang atau kunyit bubuk ke dalam air mendidik dan rebus selama beberapa 20-30 menit. Air rebusan kunyit dapat dikonsumsi selagi hangat maupun didinginkan terlebih dahulu. Anda juga dapat mencampur penambah rasa alami, seperti kayu manis, asam jawa, madu, atau lemon ke dalam secangkir air kunyit.Membuat teh dengan cara menyeduh kunyit bubuk juga bisa menjadi opsi bagi yang ingin meminum air kunyit.Selain itu, Kamu juga bisa mencampur 1-2 sendok teh kunyit dengan secangkir susu hangat untuk meningkatkan daya tahan tubuh.</p>
+                                    </ol>
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <!-- Data Tanaman -->
+            <div id="temulawak" class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://asset.kompas.com/crops/30evIWaZUR_4P-GHaQ_ku8hRwOg=/35x32:433x298/1200x800/data/photo/2023/01/10/63bd3fcc5bf00.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Temulawak</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#temulawakModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="temulawakModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Temulawak</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://asset.kompas.com/crops/30evIWaZUR_4P-GHaQ_ku8hRwOg=/35x32:433x298/1200x800/data/photo/2023/01/10/63bd3fcc5bf00.jpg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Temulawak</h5>
+                            <h5><i>Curcuma xanthorrhiza</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Temulawak adalah tanaman herbal asal Indonesia yang memiliki bentuk mirip kunyit. Tanaman ini mempunyai nama latin Curcuma xanthorrhiza. Seperti halnya tanaman rempah pada umumnya, temulawak juga  memiliki kandungan banyak zat penting, termasuk protein, kurkumin, serat, dan mineral. Selain itu, tanaman herbal ini juga mengandung tiga senyawa aktif, yaitu germakron, seskuiterpen d-kamper, turmeron, dan p-toluilmetilkarbinol.Kandungan inilah yang membuat temulawak memiliki banyak manfaat untuk kesehatan tubuh. Mulai dari membantu meningkatkan fungsi pencernaan pada tubuh hingga membantu meredakan kelelahan pada otot.</p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Beberapa manfaat utama dari Temulawak antara lain:
+                            </p>
+                            <ol class="text-start">
+                                <li> Meningkatkan fungsi pencernaan: Tanaman ini merangsang produksi empedu yang terdapat pada kantung empedu, sehingga membantu meningkatkan fungsi pencernaan. Rutin mengonsumsi herbal ini bisa membantu mengatasi berbagai masalah pencernaan, seperti kembung, gas dan dispepsia.</li>
+                                <li>Membantu mengatasi mual: Manfaat temulawak yang satu ini terjadi berkat kandungan piridoksin atau vitamin B6. Tak sedikit ibu hamil mengonsumsi herbal ini untuk meringankan rasa mual di pagi hari (morning sickness). Namun, sebaiknya kamu tetap berdiskusi dengan dokter ahli kandungan guna menghindari terjadinya efek samping.</li>
+                                <li>Temulawak membantu meningkatkan fungsi ginjal: Manfaat temulawak selanjutnya adalah membantu meningkatkan fungsi normal ginjal. Cara kerjanya dengan memaksimalkan fungsi organ dalam menyaring darah dari racun dan sisa-sisa metabolisme tubuh. Kegunaan ini terjadi berkat kandungan minyak atsiri dalam rempah.</li>
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara membuat jamu temulawak:
+                                <p class="text-start">Berikut adalah cara membuat jamu temulawak untuk manfaat kesehatan:
+                                    <ol class="text-start">
+                                        <li>Jamu Temulawak</li>
+                                        <p>Bahan Jamu Temulawak:
+                                            <ul>
+                                                <li>2 ruas temulawak atau sesuai selera, bersihkan dan parut sampai halus</li>
+                                                <li>450 ml atau dua gelas kecil air putih</li>
+                                                <li>Satu sendok makan madu atau gula pasir</li>
+                                            </ul>
+                                        </p>
+                                        <p>Cara Membuat: Rebus semua bahan sampai mendidih dan airnya surut setengahnya. Tuang rebusan temulawak ke dalam gelas dan saring hingga ampasnya tersaring. Diamkan selagi hangat, tambahkan madu atau gula dan aduk sampai rata. Minum jamu temulawak selagi hangat atau saat sudah dingin.</p>
+                                    </ol>
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <!-- Data Tanaman -->
+            <div class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://asset.kompas.com/crops/_0piDqxpWCNPQt9PbhF5h7aF4ho=/0x59:1000x726/1200x800/data/photo/2022/12/06/638f208b412bc.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sambiloto</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sambilotoModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="sambilotoModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sambiloto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://asset.kompas.com/crops/_0piDqxpWCNPQt9PbhF5h7aF4ho=/0x59:1000x726/1200x800/data/photo/2022/12/06/638f208b412bc.jpg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Sambiloto</h5>
+                            <h5><i>Andrographis paniculata</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Sambiloto (Andrographis paniculata) adalah tanaman herbal yang sering digunakan dalam pengobatan tradisional, terutama di Asia, termasuk Indonesia. Tanaman ini dikenal memiliki berbagai manfaat kesehatan berkat kandungan senyawa aktif seperti andrographolide, flavonoid, saponin, dan tanin. Sambiloto sering digunakan untuk meningkatkan kesehatan tubuh dan mengobati berbagai penyakit.</p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Beberapa manfaat utama dari sambiloto antara lain:
+                            </p>
+                            <ol class="text-start">
+                                <li class="text-start">Meningkatkan Sistem Imun</li>
+                                <p class="text-start">Sambiloto dikenal memiliki sifat imunostimulan yang dapat membantu meningkatkan daya tahan tubuh, sehingga tubuh lebih tahan terhadap infeksi dan penyakit.</p>
+                                <li class="text-start">Mengatasi Infeksi dan Radang</li>
+                                <p class="text-start">Sambiloto memiliki sifat antibakteri, antivirus, dan antijamur, yang membuatnya efektif dalam mengatasi berbagai jenis infeksi. Selain itu, sambiloto juga memiliki efek anti-inflamasi yang dapat membantu mengurangi peradangan pada tubuh.</p>
+                                <li class="text-start">Membantu Menurunkan Demam</li>
+                                <p class="text-start">Sambiloto memiliki sifat antipiretik, yaitu dapat membantu menurunkan demam dengan cara meningkatkan keringat dan mengurangi peradangan yang menyebabkan demam.</p>
+                                <li class="text-start">Meningkatkan Kesehatan Hati</li>
+                                <p class="text-start">Sambiloto dapat membantu melindungi hati dari kerusakan dan memperbaiki fungsi hati, terutama pada kondisi seperti hepatitis atau kerusakan hati akibat konsumsi alkohol atau obat-obatan.</p>
+                                <li class="text-start">Mengatasi Gangguan Pencernaan</li>
+                                <p class="text-start">Sambiloto membantu meredakan masalah pencernaan seperti perut kembung, diare, atau gangguan pencernaan lainnya dengan merangsang sekresi cairan pencernaan dan melancarkan peristaltik usus.</p>
+                                <li class="text-start">Menurunkan Kadar Gula Darah</li>
+                                <p class="text-start">Beberapa penelitian menunjukkan bahwa sambiloto dapat membantu menurunkan kadar gula darah, sehingga bermanfaat bagi penderita diabetes.</p>
+                                <li>Membantu Mengurangi Kadar Kolesterol</li>
+                                <p>Sambiloto dapat membantu menurunkan kadar kolesterol dalam darah, yang berfungsi untuk menjaga kesehatan jantung dan mencegah penyakit kardiovaskular.</p>
+                                <li>Meningkatkan Kesehatan Saluran Pernapasan</li>
+                                <p>Sambiloto digunakan dalam pengobatan batuk, pilek, dan infeksi saluran pernapasan lainnya karena memiliki sifat anti-inflamasi dan dapat membantu melonggarkan dahak.</p>
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara dan Langkah-langkah Membuat Ramuan Sambiloto
+                                <p class="text-start">Berikut adalah beberapa cara membuat ramuan sirih untuk manfaat kesehatan tertentu:
+                                    <ol class="text-start">
+                                        <li>Jamu Sambiloto (Rebusan Daun Sambiloto)</li>
+                                        <p class="text-start">Bahan: 
+                                            <ul>
+                                                <li class="text-start">5-10 lembar daun sambiloto segar atau 1-2 sendok makan sambiloto kering.</li>
+                                                <li class="text-start">500 ml air.</li>
+                                                <li>Madu atau gula kelapa (opsional).</li>
+                                            </ul>
+                                        </p>
+                                        <p>Langkah-langkah :
+                                            <ol>
+                                                <li>Cuci bersih daun sambiloto segar atau siapkan sambiloto kering.</li>
+                                                <li>Rebus daun sambiloto dalam 500 ml air selama 15-20 menit dengan api kecil hingga air berkurang setengahnya.</li>
+                                                <li>Setelah mendidih dan warnanya berubah menjadi hijau kecokelatan, angkat dan saring airnya untuk memisahkan daun sambiloto.</li>
+                                                <li>Tambahkan madu atau gula kelapa untuk memberikan rasa manis alami jika diinginkan.</li>
+                                                <li>Minumlah ramuan ini 1-2 kali sehari untuk membantu meningkatkan daya tahan tubuh, menurunkan demam, atau mengatasi masalah pencernaan.</li>
+                                            </ol>
+                                        </p>
+                                        <li>Teh Sambiloto</li>
+                                        <p class="text-start">Bahan: 
+                                            <ul>
+                                                <li class="text-start">1-2 sendok makan sambiloto kering.</li>
+                                                <li class="text-start">200 ml air panas.</li>
+                                                <li>Madu atau lemon (opsional).</li>
+                                            </ul>
+                                        </p>
+                                        <p>Langkah-langkah :
+                                            <ol>
+                                                <li>Siapkan sambiloto kering dan masukkan ke dalam cangkir.</li>
+                                                <li>Tuangkan air panas ke dalam cangkir yang berisi sambiloto.</li>
+                                                <li>Diamkan selama 5-10 menit agar sambiloto mengeluarkan aroma dan manfaatnya.</li>
+                                                <li>Saring dan tambahkan madu atau perasan lemon jika diinginkan untuk penambah rasa.</li>
+                                                <li>Nikmati teh sambiloto ini sebagai minuman yang menyehatkan dan memberikan manfaat untuk tubuh.</li>
+                                            </ol>
+                                        </p>
+                                        <li>Ramuan Sambiloto untuk Batuk dan Pilek</li>
+                                        <p class="text-start">Bahan: 
+                                            <ul>
+                                                <li class="text-start">5 lembar daun sambiloto segar.</li>
+                                                <li class="text-start">1 sendok teh madu.</li>
+                                                <li class="text-start">1-2 sendok teh perasan jeruk nipis.</li>
+                                                <li class="text-start">100 ml air.</li>
+                                            </ul>
+                                        </p>
+                                        <p>Langkah-langkah :
+                                            <ol>
+                                                <li>Siapkan sambiloto kering dan masukkan ke dalam cangkir.</li>
+                                                <li>Tuangkan air panas ke dalam cangkir yang berisi sambiloto.</li>
+                                                <li>Diamkan selama 5-10 menit agar sambiloto mengeluarkan aroma dan manfaatnya.</li>
+                                                <li>Saring dan tambahkan madu atau perasan lemon jika diinginkan untuk penambah rasa.</li>
+                                                <li>Nikmati teh sambiloto ini sebagai minuman yang menyehatkan dan memberikan manfaat untuk tubuh.</li>
+                                            </ol>
+                                        </p>
+                                        <p class="text-start text-danger">Tips dan peringatan :
+                                            <ul>
+                                                <li class="text-start">Dosis: Jangan mengonsumsi sambiloto dalam jumlah berlebihan karena dapat menyebabkan efek samping, seperti gangguan pencernaan atau reaksi alergi.</li>
+                                                <li class="text-start">Konsultasi dengan dokter: Sebaiknya konsultasikan penggunaan sambiloto dengan dokter jika Anda memiliki kondisi medis tertentu, seperti gangguan jantung, diabetes, atau sedang mengonsumsi obat-obatan tertentu.</li>
+                                                <li class="text-start">Kehamilan dan Menyusui: Sambiloto sebaiknya dihindari selama kehamilan atau menyusui tanpa rekomendasi dari dokter karena dapat mempengaruhi kesehatan janin atau bayi.</li>
+                                            </ul>
+                                        </p>
+                                    </ol>
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <!-- Data Tanaman -->
+            <div class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://dev.nutriflakes.id/uploads/2024/02/manfaat-temu-ireng-untuk-asam-lambung.webp" height="173" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Temu Ireng</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#temuirengModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="temuirengModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Temu Ireng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://img.lazcdn.com/g/ff/kf/Sca579f34748d4f95b70ad3dcc2a5174cj.jpg_720x720q80.jpg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Temu Ireng</h5>
+                            <h5><i>Curcuma aeruginosa</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Temu Ireng (Curcuma aeruginosa) adalah tanaman herbal yang masih termasuk dalam keluarga Zingiberaceae, yang juga mencakup kunyit dan temu lawak. Temu ireng memiliki banyak manfaat untuk kesehatan karena kandungan senyawa aktif di dalamnya, seperti curcumin, minyak atsiri, flavonoid, dan polisakarida. Temu ireng sering digunakan dalam pengobatan tradisional untuk berbagai masalah kesehatan.
+                            </p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Manfaat Temu Ireng
+                            </p>
+                            <ol class="text-start">
+                                <li>Meningkatkan Kesehatan Pencernaan</li>
+                                <p>Temu ireng dapat membantu meredakan gangguan pencernaan, seperti perut kembung, sakit perut, dan mual. Tanaman ini juga dapat meningkatkan nafsu makan dan melancarkan pencernaan.</p>
+                                <li>Meningkatkan Sistem Kekebalan Tubuh</li>
+                                <p>Temu ireng memiliki efek imunostimulan yang dapat membantu meningkatkan daya tahan tubuh, melawan infeksi, dan mempercepat pemulihan.</p>
+                                <li>Meringankan Nyeri dan Peradangan</li>
+                                <p>Kandungan senyawa anti-inflamasi pada temu ireng dapat membantu meredakan nyeri sendi, radang, atau peradangan lainnya, seperti pada artritis.</p>
+                                <li>Menurunkan Demam</li>
+                                <p>Temu ireng memiliki efek antipiretik, yang dapat membantu menurunkan demam dengan cara meningkatkan keringat dan mengurangi peradangan.</p>
+                                <li>Membantu Mengatasi Gangguan Menstruasi</li>
+                                <p>Temu ireng digunakan dalam pengobatan tradisional untuk membantu meredakan nyeri menstruasi dan mengatur siklus menstruasi.</p>
+                                <li>Melancarkan Peredaran Darah</li>
+                                <p>Temu ireng juga dipercaya dapat membantu melancarkan peredaran darah dan mengurangi masalah terkait sirkulasi darah yang buruk, seperti kaki bengkak atau mati rasa.</p>
+                                <li>Meningkatkan Kesehatan Kulit</li>
+                                <p>Temu ireng mengandung antioksidan yang dapat membantu menjaga kesehatan kulit, mengatasi jerawat, dan mempercepat proses penyembuhan luka.</p>
+                                <li>Menurunkan Kadar Gula Darah</li>
+                                <p>Beberapa penelitian menunjukkan bahwa temu ireng dapat membantu menurunkan kadar gula darah, yang berguna bagi penderita diabetes tipe 2.</p>
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara dan Langkah-langkah Membuat Ramuan Temu Ireng
+                                <ol>
+                                    <li class="text-start">Jamu Temu Ireng (Rebusan Temu Ireng)</li>
+                                    <p class="text-start">Bahan :</p>
+                                    <ul>
+                                        <li class="text-start">2-3 cm rimpang temu ireng segar.</li>
+                                        <li class="text-start">300-500 ml air</li>
+                                        <li class="text-start">Madu atau gula kelapa (opsional),</li>
+                                        <p class="text-start">Langkah-langkah :
+                                            <ol>
+                                                <li class="text-start">Cuci bersih rimpang temu ireng yang akan digunakan.</li>
+                                                <li class="text-start">Tumbuk atau parut rimpang temu ireng untuk mengeluarkan sari-sarinya.</li>
+                                                <li class="text-start">Rebus air dalam panci dan masukkan rimpang temu ireng yang sudah diparut atau ditumbuk.</li>
+                                                <li class="text-start">Rebus selama 10-15 menit dengan api kecil hingga air berwarna kekuningan dan aroma temu ireng keluar.</li>
+                                                <li class="text-start">Setelah mendidih, angkat dan saring air rebusan untuk memisahkan ampas temu ireng.</li>
+                                                <li class="text-start">Tambahkan madu atau gula kelapa untuk memberikan rasa manis alami, jika diinginkan.</li>
+                                                <li class="text-start">Minum ramuan ini 1-2 kali sehari untuk manfaat kesehatan, seperti meningkatkan pencernaan dan daya tahan tubuh.</li>
+                                            </ol>
+                                        </p>
+                                    </ul>
+                                    <li class="text-start">Teh Temu Ireng</li>
+                                    <p class="text-start">Bahan :</p>
+                                    <ul>
+                                        <li class="text-start">1-2 cm rimpang temu ireng segar.</li>
+                                        <li class="text-start">200 ml air panas</li>
+                                        <li class="text-start">Madu atau perasan jeruk nipis (opsional),</li>
+                                        <p class="text-start">Langkah-langkah :
+                                            <ol>
+                                                <li class="text-start">Cuci bersih rimpang temu ireng</li>
+                                                <li class="text-start">Parut atau tumbuk rimpang temu ireng</li>
+                                                <li class="text-start">Masukkan temu ireng yang sudah diparut ke dalam cangkir.</li>
+                                                <li class="text-start">Tuangkan air panas ke dalam cangkir yang berisi temu ireng.</li>
+                                                <li class="text-start">Diamkan selama 5-10 menit agar temu ireng mengeluarkan rasa dan manfaatnya</li>
+                                                <li class="text-start">Saring dan tambahkan madu atau perasan jeruk nipis jika diinginkan untuk meningkatkan rasa.</li>
+                                                <li class="text-start">Nikmati teh temu ireng ini sebagai minuman yang menyehatkan dan menyegarkan.</li>
+                                            </ol>
+                                        </p>
+                                    </ul>
+                                    <li class="text-start">Ramuan Temu Ireng untuk Nyeri Sendi</li>
+                                    <p class="text-start">Bahan :</p>
+                                    <ul>
+                                        <li class="text-start">2-3 cm rimpang temu ireng segar.</li>
+                                        <li class="text-start">1 sendok teh minyak kelapa atau minyak zaitun.</li>
+                                        <p class="text-start">Langkah-langkah :
+                                            <ol>
+                                                <li class="text-start">Cuci bersih rimpang temu ireng dan tumbuk halus.</li>
+                                                <li class="text-start">Campurkan temu ireng yang sudah dihaluskan dengan minyak kelapa atau minyak zaitun.</li>
+                                                <li class="text-start">Oleskan ramuan ini ke bagian tubuh yang terasa nyeri atau radang, seperti pada sendi atau otot yang pegal.</li>
+                                                <li class="text-start">Diamkan selama beberapa jam atau semalaman, lalu bilas dengan air bersih.</li>
+                                                <li class="text-start">Diamkan selama 5-10 menit agar temu ireng mengeluarkan rasa dan manfaatnya</li>
+                                                <li class="text-start">Lakukan ini secara rutin untuk meredakan nyeri sendi atau otot.</li>
+                                            </ol>
+                                        </p>
+                                    </ul>
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <!-- Data Tanaman -->
+            <div class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1629694987/attached_image/khasiat-kunyit-asam-untuk-meredakan-penyakit-penyakit-ini.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Kunir Asem</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kunirasemModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="kunirasemModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Kunir Asem</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://img-global.cpcdn.com/recipes/dcb14100781f4ed5/680x482cq70/jamu-kunir-asem-foto-resep-utama.jpg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Kunir Asem</h5>
+                            <h5><i>Curcuma longa</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Kunir Asem (atau Kunyit Asam) adalah salah satu minuman tradisional khas Indonesia yang dikenal sebagai jamu. Minuman ini dibuat dari bahan utama kunyit (kunir) dan asam jawa, serta bahan tambahan seperti gula jawa dan rempah-rempah lain.
+                            </p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Manfaat Kunir Asem:
+                            </p>
+                            <ol class="text-start">
+                                <li>Kunir Asem bantu melawan infeksi</li>
+                                <p>Minuman rempah ini mengandung sifat antibakteri dan antivirus yang dapat membantu melawan infeksi. Senyawa dalamnya dapat membunuh bakteri dan virus yang menyebabkan penyakit, menjaga tubuh tetap sehat dan terlindungi.</p>
+
+                                <li>Meningkatkan sistem kekebalan tubuh</li>
+                                <p>Kandungan vitamin C dalam asam jawa dan sifat imunomodulator dalam kunyit membantu meningkatkan sistem kekebalan tubuh. Oleh karena itu, mengonsumsinya secara teratur dapat membantu melindungi tubuh dari penyakit dan infeksi.</p>
+                                
+                                <li>Membantu pencernaan</li>
+                                <p>Senyawa aktif dalamnya dapat merangsang produksi enzim pencernaan, dan meningkatkan nafsu makan. Selain itu juga dapat meredakan masalah pencernaan seperti kembung dan gangguan lambung.</p>
+
+                                <li>Mengurangi risiko kanker</li>
+                                <p>Kurkumin, senyawa aktif dalam kunyit, memiliki sifat antikanker. Rempah ini dapat membantu melawan pertumbuhan sel kanker dan mencegah pembentukan tumor. </p>
+
+                                <li>Kunyit asam menjaga kesehatan jantung</li>
+                                <p>Kombinasi kunyit dan asam jawa dapat membantu menjaga kesehatan jantung. Senyawa yang terdapat di dalamnya dapat membantu menurunkan kadar kolesterol dan trigliserida dalam darah. Selain itu juga dapat menjaga tekanan darah normal.</p>
+
+                                <li>Menjaga kesehatan tulang dan sendi</li>
+                                <p>Kunyit asam mengandung senyawa yang baik untuk kesehatan tulang dan sendi, seperti kurkuminoid dan vitamin C. Selain itu, senyawa ini juga membantu memperkuat tulang dan jaringan ikat, serta mengurangi risiko osteoporosis dan penyakit sendi.</p>
+
+                                <li>Mengontrol kadar gula darah</li>
+                                <p>Kombinasi kunyit dan asam jawa dapat membantu mengontrol kadar gula darah. Senyawa di dalamnya dapat membantu meningkatkan sensitivitas insulin dan mengatur metabolisme glukosa dalam tubuh.</p>
+
+                                <li>Kunyit asam menjaga kesehatan kulit</li>
+                                <p>Selain itu, rempah ini juga memiliki sifat anti peradangan dan antibakteri yang baik untuk kesehatan kulit. Oleh karena itu, masker yang terbuat dari bahan ini membantu mengurangi jerawat, mencerahkan kulit, menghilangkan noda hitam, dan memberikan kilau alami.</p>
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara dan Langkah-langkah Membuat Ramuan Kunir Asem (Jamu Kunyit Asam)
+                                <ol>
+                                    <li class="text-start">Ramuan Kunir Asem (Jamu Kunyit Asam)</li>
+                                    <p class="text-start">Bahan :</p>
+                                    <ul>
+                                        <li class="text-start">2-3 cm rimpang kunyit segar (Curcuma longa)</li>
+                                        <li class="text-start">1 sendok makan asam jawa (Tamarindus indica)</li>
+                                        <li class="text-start">300-500 ml air</li>
+                                        <li class="text-start">Gula jawa atau madu (opsional)</li>
+                                        <p class="text-start">Langkah-langkah :
+                                            <ol>
+                                                <li class="text-start">Cuci Bersih Kunyit dan Asam Jawa</li>
+                                                <p class="text-start">Cuci bersih rimpang kunyit dan asam jawa. Kupas kunyit dan iris tipis atau parut untuk mempermudah ekstraksi sari-sari kunyit.</p>
+                                                <li class="text-start">Rebus Kunyit dan Asam Jawa</li>
+                                                <p class="text-start">Masukkan kunyit yang sudah diparut bersama dengan asam jawa ke dalam panci. Tambahkan air secukupnya (300-500 ml, sesuai selera). Rebus selama 15-20 menit dengan api kecil.</p>
+                                                <li class="text-start">Saring Rebusan</li>
+                                                <p class="text-start">Setelah air rebusan berwarna kekuningan dan aroma kunyit mulai tercium, angkat dan saring airnya untuk memisahkan ampas kunyit dan asam jawa.</p>
+                                                <li class="text-start">Tambahkan Gula Jawa atau Madu (Opsional)</li>
+                                                <p class="text-start">Jika ingin memberi rasa manis alami, tambahkan gula jawa atau madu secukupnya. Aduk rata hingga gula larut.</p>
+                                                <li class="text-start">Nikmati Ramuan</li>
+                                                <p class="text-start">Minum ramuan kunir asem ini 1-2 kali sehari untuk merasakan manfaat kesehatan seperti meningkatkan pencernaan, memperkuat daya tahan tubuh, dan meredakan peradangan.</p>
+                                            </ol>
+                                        </p>
+                                    </ul>
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <!-- Data Tanaman -->
+            <div class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://cdn.idntimes.com/content-images/post/20220113/2108-2f5e23b4b2ec2ec576a424b74c82f3b4.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sinom</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sinomModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="sinomModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sinom</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://cdn.idntimes.com/content-images/post/20220113/2108-2f5e23b4b2ec2ec576a424b74c82f3b4.jpeg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Sinom</h5>
+                            <h5><i>Tamarindus indica</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Sinom adalah minuman tradisional yang berasal dari  Jawa yang terbuat dari daun muda pohon asam (Tamarindus indica).Kandungan sinom terbuat dari bahan-bahan alami seperti daun asam muda (sinom), kunyit, jahe, dan gula aren, sinom dikenal sebagai minuman yang menyegarkan sekaligus menyehatkan.
+                            </p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Manfaat Jamu Sinom
+                            </p>
+                            <p class="text-start">Beberapa manfaat jamu sinom:</p>
+                            <ol class="text-start">
+                                <li class="text-start">Meningkatkan  Saluran Pencernaan : Sinom membantu melancarkan pencernaan dan mengatasi masalah seperti sembelit dan perut kembung. Asam alami dari daun sinom berfungsi merangsang produksi enzim pencernaan.</li>
+                                <li class="text-start">Sebagai detoksifikasi  untuk  Tubuh: Kombinasi daun asam dan kunyit dalam sinom membantu proses detoksifikasi dengan cara membersihkan racun dari dalam tubuh, terutama di hati.</li>
+                                <li class="text-start">Mengobati Peradangan: Kunyit yang terdapat dalam sinom memiliki sifat antiinflamasi yang efektif dalam meredakan peradangan, baik yang disebabkan oleh infeksi maupun kondisi kronis seperti arthritis.</li>
+                                <li class="text-start">Meningkatkan Sistem Imun: Kandungan antioksidan dari kunyit dan jahe membantu memperkuat sistem kekebalan tubuh, melindungi dari berbagai penyakit.</li>
+                                <li class="text-start">Menjaga Kelembaban  Kulit: Sinom memiliki efek yang baik untuk kesehatan kulit. Antioksidan dan vitamin dalam bahan-bahan jamu ini membantu menjaga elastisitas kulit, mencegah penuaan dini, dan mengatasi masalah kulit seperti jerawat.</li>
+                                <li class="text-start">Mengurangi Rasa Lelah dan letih : Kandungan jahe dan kunyit juga berperan dalam mengurangi rasa lelah dan memberikan energi tambahan, menjadikan sinom minuman yang cocok dikonsumsi setelah aktivitas berat.</li>
+                                <li class="text-start">Membantu proses penurunan berat badan: Sinom dapat membantu dalam proses penurunan berat badan dengan meningkatkan metabolisme dan membantu pembakaran lemak.</li>
+                                <li class="text-start">Menyegarkan Tubuh: Sinom memberikan efek menyegarkan yang bisa menghilangkan rasa dahaga dan memberikan sensasi dingin yang alami pada tubuh.</li>
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara dan Langkah-langkah Membuat Ramuan Temu Ireng
+                                <ol>
+                                    <li class="text-start">Jamu Sinom</li>
+                                    <p class="text-start">Bahan :</p>
+                                    <ol>
+                                        <li class="text-start">250 gr daun asam yang masih muda (sinom)</li>
+                                        <li class="text-start">100 gr buah asam jawa</li>
+                                        <li class="text-start">150 gr kunyit (kupas kulitnya&haluskan)</li>
+                                        <li class="text-start">250 gr gula merah (sisir halus)</li>
+                                        <li class="text-start">1 sdm garam halus</li>
+                                        <li class="text-start">Secukupnya air untuk merebus</li>
+                                    </ol>
+                                    <p class="text-start">Langkah-langkah :
+                                        <ol>
+                                            <li class="text-start">Bersihkan daun asam dan pisahkan dari tulangnya</li>
+                                            <li class="text-start">Setelah itu cuci bersih daun asam dengan air</li>
+                                            <li class="text-start">Rebus semua bahan untuk membuat minuman sinom sampai benar-benar mendidih dan matang</li>
+                                            <li class="text-start">Saring minuman sinom supaya tidak terbawa sampahnya lalu diamkan sampai dingin</li>
+                                            <li class="text-start">Sajikan bersama es lebih nikmat </li>
+                                        </ol>
+                                    </p>
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <!-- Data Tanaman -->
+            <div class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://cdn0-production-images-kly.akamaized.net/ytTOqj2BbSVsv4F_HgWyEwQAQ9M=/1x24:1000x587/469x260/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4621854/original/050666800_1698128591-shutterstock_1516228193.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Uyup-uyup/gepyokan</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gepyokanModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="gepyokanModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Uyup-uyup/gepyokan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://cdn0-production-images-kly.akamaized.net/ytTOqj2BbSVsv4F_HgWyEwQAQ9M=/1x24:1000x587/469x260/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4621854/original/050666800_1698128591-shutterstock_1516228193.jpg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Uyup-uyup</h5>
+                            <h5><i> Elephantopus scaber</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">Uyup-uyup adalah suatu ramuan jamu yang paling banyak digunakan pada masa menyusui.Manfaat utama uyup-uyup adalah sebagai pelancar air susu ibu (ASI).Tanaman ini adalah tumbuhan herbal yang tumbuh tegak, dengan daun berbentuk lonjong atau oval dan memiliki ujung yang runcing. Biasanya berwarna hijau tua, dan bunga berwarna putih dengan kelopak kecil. Tanaman ini sering ditemukan di daerah yang sedikit lembap dan di pinggir jalan.
+                            </p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Manfaat Uyup-Uyup
+                            </p>
+                            <ol class="text-start">
+                                <p>Manfaat dari jamu uyup-uyup kebanyakan hanya ditinjau dari manfaatnya sebagai pelancar ASI. Satu artikel membahas bahwa uyup-uyup tidak hanya memperlancar atau
+                                meningkatkan produksi ASI tetapi juga merupakan minuman perawatan untuk masa nifas.Prastiwi (2018) menyatakan bahwa selain untuk meningkatkan ASI, penggunaan jamu uyupuyup juga untuk menyegarkan badan. Hal tersebut sesuai dengan penelitian yang dilakukan oleh Millinga et-al (2022) yang menyatakan bahwa jamu untuk ibu menyusui hanya berpusat pada manfaatnya sebagai ASI booster.</p>
+                                
+                            </ol>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara dan Langkah-langkah Membuat Ramuan Uyup-uyup
+                                <ol>
+                                    <li class="text-start">Jamu Uyup-Uyup</li>
+                                    <p class="text-start">Bahan :</p>
+                                    <ul>
+                                        <li class="text-start">Daun Uyup-Uyup (Elephantopus scaber) – 5-7 lembar daun segar</li>
+                                        <li class="text-start">Air matang – 2 gelas</li>
+                                        <li class="text-start">Gula merah (opsional) – secukupnya, untuk memberi rasa manis</li>
+                                        <li class="text-start">Jahe (opsional) – 1 ruas, untuk menambah rasa hangat</li>
+                                        <li class="text-start">Kencur (opsional) – 1 ruas, untuk meningkatkan khasiat jamu</li>
+                                        <p class="text-start">Langkah-langkah :
+                                            <ol>
+                                                <li class="text-start">Persiapan Bahan :</li>
+                                                <p class="text-start">Cuci bersih daun uyup-uyup dengan air mengalir untuk menghilangkan debu dan kotoran.Jika menggunakan jahe atau kencur, kupas dan memarkan bahan tersebut agar lebih mudah mengeluarkan sari dan rasanya.</p>
+                                                <li class="text-start">Rebus Daun Uyup-Uyup :</li>
+                                                <p class="text-start">Masukkan daun uyup-uyup ke dalam panci, tambahkan 2 gelas air matang.Rebus daun uyup-uyup selama 15-20 menit dengan api sedang, sampai air rebusan mengental dan warnanya berubah menjadi lebih kehijauan.</p>
+                                                <li class="text-start">Tambahkan Jahe atau Kencur (Opsional) :</li>
+                                                <p class="text-start">Jika ingin menambah rasa hangat atau khasiat, masukkan jahe atau kencur yang sudah dimemarkan ke dalam rebusan daun uyup-uyup.Rebus kembali selama 5-10 menit agar semua bahan tercampur rata dan rasa jahe atau kencur keluar.</p>
+                                                <li class="text-start">Penyaringan :</li>
+                                                <p class="text-start">Setelah semua bahan direbus dan airnya berkurang, saring rebusan jamu untuk memisahkan ampas dari airnya.Pisahkan air rebusan dan masukkan ke dalam wadah yang bersih.</p>
+                                                <li class="text-start">Menambahkan Gula Merah (Opsional):</li>
+                                                <p class="text-start">Jika Anda suka jamu yang manis, tambahkan gula merah secukupnya ke dalam air rebusan yang sudah disaring.Aduk rata hingga gula merah larut sempurna.</p>
+                                                <li class="text-start">Penyajian :</li>
+                                                <p class="text-start">Jamu uyup-uyup siap disajikan. Minum jamu ini selagi hangat untuk manfaat yang lebih optimal.</p>
+                                                
+                                            </ol>
+                                        </p>
+                                    </ul>
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <!-- Data Tanaman -->
+            <div class="card shadow p-3 mb-5 m-2 bg-body rounded" style="width: 18rem;">
+                <img class="card-img-top" src="https://www.astronauts.id/blog/wp-content/uploads/2023/06/Cara-Membuat-Beras-Kencur-Resep-dan-Manfaatnya-Bagi-Kesehatan-1024x683.jpg" height="145" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Beras kencur</h5>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#beraskencurModal">
+                    Selengkapnya
+                  </button>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="beraskencurModal" tabindex="-1" max-width="500px" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Beras Kencur</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img class="card-img-top" src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/255/2024/11/16/IMG_5011-960681411.jpeg" alt="Card image cap" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5>Beras Kencur</h5>
+                            <h5><i>Kombinasi beras (Oryza sativa) dan kencur (Kaempferia galanga L.)</i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start">minuman herbal yang terbuat dari rimpang kencur dan rendaman beras. Karena bahan-bahan tersebut, jamu beras kencur mengandung berbagai nutrisi vitamin dan mineral yang baik untuk tubuh, di antaranya adalah: Kalsium, Kalium
+                            </p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start">
+                                Manfaat Beras Kencur:
+                            </p>
+                            <p class="text-start">Jamu ini memiliki banyak manfaat, di antaranya: Merangsang nafsu makan, Memperbaiki pencernaan, Menyegarkan tubuh, Meredakan pegal, Meningkatkan sistem imun</p>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start">
+                                Cara membuat beras kencur di rumah:
+                                <ul>
+                                    <li class="text-start">Cuci beras dan rendam selama 3 jam</li>
+                                    <li class="text-start">Masukkan beras, kencur, jahe, asam jawa, gula jawa, daun pandan, dan air matang ke dalam panci, Didihkan, dinginkan, dan blender atau tumbuk dengan beras yang direndam.</li>
+                                    <li class="text-start">Saring dan peras hingga keluar jamu beras kencur</li>
+                                </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Modal -->
+        </div>
+    </section>
+    <section class="herb-list">
+        <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addHerbModal">Tambahin Data</button>
+
+        <div class="herb-container p-2 justify-content-center align-items-center" id="herbContainer">
+            <!-- Card tanaman herbal akan ditambahkan di sini -->
+        </div>
+        
+        <!-- Modal untuk menambah tanaman -->
+        <div class="modal fade" id="addHerbModal" tabindex="-1" aria-labelledby="addHerbModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addHerbModalLabel">Tambah Tanaman Herbal</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <form id="addHerbForm">
+                            <div class="mb-3">
+                                <label for="herbName" class="form-label">Nama Tanaman</label>
+                                <input type="text" class="form-control" id="herbName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="herbLatinName" class="form-label">Nama Latin</label>
+                                <input type="text" class="form-control" id="herbLatinName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="herbDescription" class="form-label">Deskripsi Tanaman</label>
+                                <textarea class="form-control" id="herbDescription" rows="3" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="herbBenefits" class="form-label">Manfaat Tanaman</label>
+                                <textarea class="form-control" id="herbBenefits" rows="3" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="herbProcess" class="form-label">Proses Pengolahan</label>
+                                <textarea class="form-control" id="herbProcess" rows="3" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="herbImage" class="form-label">URL Gambar</label>
+                                <input type="url" class="form-control" id="herbImage" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Tambah</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal untuk menampilkan detail tanaman herbal -->
+        <div class="modal fade" id="herbDetailModal" tabindex="-1" aria-labelledby="herbDetailModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img id="modalImage" class="card-img-top" alt="Card image" style="max-width: 300px;">
+                        </div>
+                        <div class="modal-title p-2">
+                            <h5 id="modalHerbName"></h5>
+                            <h5><i id="modalHerbLatinName"></i></h5>
+                        </div>
+                        <div class="modal-deskripsi">
+                            <p class="text-start" id="modalHerbDescription"></p>
+                        </div>
+                        <div class="modal-benefit">
+                            <p class="text-start"><strong>Manfaat:</strong></p>
+                            <p class="text-start" id="modalHerbBenefits"></p>
+                        </div>
+                        <div class="modal-proses">
+                            <p class="text-start"><strong>Proses Pengolahan:</strong></p>
+                            <p class="text-start" id="modalHerbProcess"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <!-- Bagian Tim -->
+    <section id ="timkami" class="team-section">
+        <h2>Tim Kami</h2>
+        <div class="team-container p-1">
+            <div class="team-card" style="width: 18rem; height: 20rem;">
+                <img class="rounded-circle" width="200" height="200" src="./Assets/Image/5.jpeg" alt="Foto Anggota Tim">
+                <h3>Andra saferi wijaya M. Kep</h3>
+                <p><strong>Academic Supervisor</strong></p>
+            </div>
+            <div class="team-card" style="width: 18rem; height: 20rem;">
+                <img class="rounded-circle" width="200" height="200" src="./Assets/Image/1.jpg" alt="Foto Anggota Tim">
+                <h3>Salsa Oktaviana</h3>
+                <p><strong>Head of Information Technology</strong></p>
+            </div>
+            <div class="team-card" style="width: 18rem; height: 20rem;">
+                <img class="rounded-circle" width="200" height="200" src="./Assets/Image/3.jpg" alt="Foto Anggota Tim">
+                <h3>Wulan Dwi Hariyani</h3>
+                <p><strong>Design UI/UX</strong></p>
+            </div>
+            <div class="team-card" style="width: 18rem; height: 20rem;">
+                <img class="rounded-circle" width="200" height="200" src="./Assets/Image/2.jpg" alt="Foto Anggota Tim">
+                <h3>Arsya Sauqila Maulidia Alimi</h3>
+                <p><strong>Copywriter </strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container p-5">
+          <h2 class="text-center mb-4">Referensi</h2>
+          <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addReferenceModal">Tambah Referensi</button>
+          <ul class="list-group" id="referenceList">
+            <li class="list-group-item">
+              <h5 class="mb-1">11 Manfaat Kunyit Asam untuk Kesehatan, Tingkatkan Imunitas Tubuh</h5>
+              <p class="mb-1">Sumber Website : Halodoc</p>
+              <a href="https://www.halodoc.com/artikel/11-manfaat-kunyit-asam-untuk-kesehatan-tingkatkan-imunitas-tubuh?srsltid=AfmBOoqPrAk7zA__daK1pDd3i48PTNXXNc02T-Z07zPAcNlCPr-eav8e" class="btn btn-link" target="_blank">Baca Selengkapnya</a>
+            </li>
+            <li class="list-group-item">
+              <h5 class="mb-1">Uyup-Uyup Untuk Kesehatan Ibu Menyusui: Kajian Pustaka</h5>
+              <p class="mb-1">Penulis: Nutrisia Aquariushinta Sayuti, Nur Atikah</p>
+              <p class="mb-1">Jurnal Penelitian</p>
+              <a href="https://jurnaljamukusuma.com/index.php/jurnaljamukusuma/article/download/41/33/396" class="btn btn-link" target="_blank">Baca Selengkapnya</a>
+            </li>
+            <li class="list-group-item">
+              <h5 class="mb-1">Manfaat Daun Sambiloto untuk Kesehatan dan Cara Mengolahnya</h5>
+              <p class="mb-1">Penulis: Zulfa Ardhini - detikbali</p>
+              <a href="https://www.detik.com/bali/berita/d-6580391/manfaat-daun-sambiloto-untuk-kesehatan-dan-cara-mengolahnya/amp" class="btn btn-link" target="_blank">Baca Selengkapnya</a>
+            </li>
+            <li class="list-group-item">
+              <h5 class="mb-1">Manfaat Temu Ireng untuk Kesehatan hingga Cara Penggunaannya!</h5>
+              <p class="mb-1">Penulis: Laila - Gramedia </p>
+              <a href="https://www.gramedia.com/best-seller/manfaat-temu-ireng/" class="btn btn-link" target="_blank">Baca Selengkapnya</a>
+            </li>
+            <li class="list-group-item">
+              <h5 class="mb-1">Tips Mengolah Kencur untuk Atasi Penyakit</h5>
+              <p class="mb-1">Penulis: dr. Rizal Fadli - halodoc</p>
+              <a href="https://www.halodoc.com/artikel/tips-mengolah-kencur-untuk-atasi-penyakit?srsltid=AfmBOorIRUdcU2Qva_wiAF4e2kDXrdEdClPcZ_szxuK3-1Yigb2mipF2" class="btn btn-link" target="_blank">Baca Selengkapnya</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    
+      <!-- Modal -->
+      <div class="modal fade" id="addReferenceModal" tabindex="-1" aria-labelledby="addReferenceModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addReferenceModalLabel">Tambah Referensi Baru</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form id="addReferenceForm">
+                <div class="mb-3">
+                  <label for="referenceTitle" class="form-label">Judul Referensi</label>
+                  <input type="text" class="form-control" id="referenceTitle" required>
+                </div>
+                <div class="mb-3">
+                  <label for="referenceAuthor" class="form-label">Penulis/Sumber</label>
+                  <input type="text" class="form-control" id="referenceAuthor" required>
+                </div>
+                <div class="mb-3">
+                  <label for="referenceType" class="form-label">Jenis Referensi</label>
+                  <input type="text" class="form-control" id="referenceType" required>
+                </div>
+                <div class="mb-3">
+                  <label for="referenceLink" class="form-label">URL Referensi</label>
+                  <input type="url" class="form-control" id="referenceLink" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Tambah</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>Contact Information</h3>
+                <p>Address: Bengkulu</p>
+                <p>Email: </p>
+                <p>Phone: 081262166026</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-map">
+                <h3>Our Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.973686693206!2d102.2824168!3d-3.8157617999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e36ba9dff3e28ed%3A0xcb2ac219e0689500!2sHealth%20Polytechnic%20of%20Kemenkes%20Bengkulu!5e0!3m2!1sen!2sid!4v1734022695928!5m2!1sen!2sid"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Jamu ' AN Actually Nature. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+      <script>
+        // Fungsi untuk menyimpan data ke localStorage
+        function saveHerbToLocalStorage(herbData) {
+            // Pastikan data yang ingin disimpan lengkap
+            if (!herbData.herbName || !herbData.herbImage) {
+                console.error('Data tanaman tidak lengkap!', herbData);
+                return;
+            }
+
+            const herbs = JSON.parse(localStorage.getItem('herbs')) || [];
+            herbs.push(herbData);
+            localStorage.setItem('herbs', JSON.stringify(herbs));
+        }
+    
+        // Fungsi untuk memuat data dari localStorage dan menampilkan card
+        function loadHerbsFromLocalStorage() {
+            const herbs = JSON.parse(localStorage.getItem('herbs')) || [];
+            herbs.forEach(herb => {
+                // Memastikan setiap tanaman yang dimuat memiliki data lengkap
+                if (herb && herb.herbName && herb.herbImage) {
+                    addHerbCard(herb);
+                }
+            });
+        }
+        // Fungsi untuk menghapus card dan data dari localStorage
+        function deleteHerbCard(deleteButton) {
+            const herbCard = deleteButton.closest('.card');
+            const herbName = herbCard.querySelector('.card-title').textContent;
+
+            // Menghapus card dari localStorage
+            const herbs = JSON.parse(localStorage.getItem('herbs')) || [];
+            const updatedHerbs = herbs.filter(herb => herb.herbName !== herbName); // Memastikan tanaman yang dihapus tidak ada dalam array
+            localStorage.setItem('herbs', JSON.stringify(updatedHerbs)); // Menyimpan array yang sudah diperbarui ke localStorage
+
+            // Menghapus card dari DOM
+            herbCard.remove();
+        }
+    
+        // Fungsi untuk menambahkan card tanaman herbal
+        function addHerbCard(herb) {
+            // Memastikan data herbal yang diperlukan ada dan valid
+            if (!herb.herbName || !herb.herbImage) {
+                return; // Jangan tampilkan card jika data penting seperti nama atau gambar tidak ada
+            }
+
+            const herbCard = document.createElement('div');
+            herbCard.classList.add('card', 'shadow', 'p-3', 'mb-5', 'm-2', 'bg-body', 'rounded');
+            herbCard.style.width = '18rem';
+
+            herbCard.innerHTML = `
+                <img class="card-img-top" src="${herb.herbImage}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">${herb.herbName}</h5>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#herbDetailModal"
+                        data-bs-name="${herb.herbName}"
+                        data-bs-latin-name="${herb.herbLatinName || ''}"
+                        data-bs-description="${herb.herbDescription || ''}"
+                        data-bs-benefits="${herb.herbBenefits || ''}"
+                        data-bs-process="${herb.herbProcess || ''}"
+                        data-bs-image="${herb.herbImage}">
+                        Selengkapnya
+                    </button>
+                </div>
+                <span class="delete-icon" onclick="deleteHerbCard(this)">&#10005;</span>  <!-- Tanda silang -->
+            `;
+
+            // Menambahkan card baru ke dalam container
+            document.getElementById('herbContainer').appendChild(herbCard);
+        }
+    
+        // Fungsi untuk menghapus card dan data dari localStorage
+        function deleteHerbCard(deleteButton) {
+            const herbCard = deleteButton.closest('.card');
+            const herbName = herbCard.querySelector('.card-title').textContent;
+    
+            // Menghapus card dari localStorage
+            const herbs = JSON.parse(localStorage.getItem('herbs')) || [];
+            const updatedHerbs = herbs.filter(herb => herb.herbName !== herbName);
+            localStorage.setItem('herbs', JSON.stringify(updatedHerbs));
+    
+            // Menghapus card dari DOM
+            herbCard.remove();
+        }
+        // Fungsi untuk menyaring card berdasarkan input pencarian
+        function searchHerbs() {
+            const searchValue = document.getElementById('searchInput').value.toLowerCase();
+            const herbCards = document.getElementById('herbContainer').getElementsByClassName('card');
+
+            // Memeriksa setiap card
+            Array.from(herbCards).forEach(card => {
+                const herbName = card.querySelector('.card-title').textContent.toLowerCase(); // Mengambil nama tanaman dari card
+                if (herbName.includes(searchValue)) {
+                    card.style.display = 'block';  // Menampilkan card yang cocok
+                } else {
+                    card.style.display = 'none';   // Menyembunyikan card yang tidak cocok
+                }
+            });
+        }
+    
+        // Memuat data tanaman saat halaman dimuat
+        window.onload = function() {
+            loadHerbsFromLocalStorage();
+        };
+        // Menambahkan event listener untuk pencarian
+        document.getElementById('searchInput').addEventListener('input', searchHerbs);
+    
+        // Fungsi untuk menambahkan tanaman baru
+        document.getElementById('addHerbForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            // Mengambil data dari form
+            const herbName = document.getElementById('herbName').value;
+            const herbLatinName = document.getElementById('herbLatinName').value;
+            const herbDescription = document.getElementById('herbDescription').value;
+            const herbBenefits = document.getElementById('herbBenefits').value;
+            const herbProcess = document.getElementById('herbProcess').value;
+            const herbImage = document.getElementById('herbImage').value;
+    
+            const herbData = {
+                herbName,
+                herbLatinName,
+                herbDescription,
+                herbBenefits,
+                herbProcess,
+                herbImage
+            };
+    
+            // Menambahkan card ke halaman
+            addHerbCard(herbData);
+    
+            // Menyimpan data ke localStorage
+            saveHerbToLocalStorage(herbData);
+    
+            // Menutup modal setelah submit
+            const addHerbModal = new bootstrap.Modal(document.getElementById('addHerbModal'));
+            addHerbModal.hide();
+    
+            // Reset form setelah menambahkan tanaman
+            document.getElementById('addHerbForm').reset();
+        });
+    
+        // Menambahkan event listener untuk tombol modal Selengkapnya
+        document.addEventListener('click', function(event) {
+            if (event.target && event.target.classList.contains('btn-primary')) {
+                const herbName = event.target.getAttribute('data-bs-name');
+                const herbLatinName = event.target.getAttribute('data-bs-latin-name');
+                const herbDescription = event.target.getAttribute('data-bs-description');
+                const herbBenefits = event.target.getAttribute('data-bs-benefits');
+                const herbProcess = event.target.getAttribute('data-bs-process');
+                const herbImage = event.target.getAttribute('data-bs-image');
+    
+                // Update modal content sesuai dengan data tanaman yang dipilih
+                document.getElementById('modalHerbName').textContent = herbName;
+                document.getElementById('modalHerbLatinName').textContent = herbLatinName;
+                document.getElementById('modalHerbDescription').textContent = herbDescription;
+                document.getElementById('modalHerbBenefits').textContent = herbBenefits;
+                document.getElementById('modalHerbProcess').textContent = herbProcess;
+                document.getElementById('modalImage').src = herbImage;
+            }
+        });
+
+        // Fungsi untuk menyimpan referensi ke dalam localStorage
+function saveReferences(references) {
+  localStorage.setItem('references', JSON.stringify(references));
+}
+
+// Fungsi untuk mengambil referensi dari localStorage
+function getReferences() {
+  const references = localStorage.getItem('references');
+  return references ? JSON.parse(references) : [];
+}
+
+// Fungsi untuk menampilkan semua referensi di list
+function renderReferences() {
+  const references = getReferences();
+  const referenceList = document.getElementById('referenceList');
+  
+  references.forEach(reference => {
+    const newReference = document.createElement('li');
+    newReference.classList.add('list-group-item');
+    newReference.innerHTML = `
+      <h5 class="mb-1">${reference.title}</h5>
+      <p class="mb-1">Penulis/Sumber: ${reference.author}</p>
+      <p class="mb-1">Jenis Referensi: ${reference.type}</p>
+      <a href="${reference.link}" class="btn btn-link" target="_blank">Baca Selengkapnya</a>
+    `;
+    referenceList.appendChild(newReference);
+  });
+}
+
+// Menambahkan event listener untuk form
+document.getElementById('addReferenceForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Menghindari refresh halaman
+
+  // Mengambil nilai input dari form
+  const title = document.getElementById('referenceTitle').value;
+  const author = document.getElementById('referenceAuthor').value;
+  const type = document.getElementById('referenceType').value;
+  const link = document.getElementById('referenceLink').value;
+
+  // Membuat objek referensi baru
+  const newReference = { title, author, type, link };
+
+  // Ambil referensi yang sudah ada dari localStorage
+  const references = getReferences();
+
+  // Menambahkan referensi baru ke array referensi
+  references.push(newReference);
+
+  // Simpan referensi yang sudah diperbarui ke localStorage
+  saveReferences(references);
+
+  // Menampilkan ulang referensi di list
+  renderReferences();
+
+  // Menutup modal setelah referensi ditambahkan
+  const modal = bootstrap.Modal.getInstance(document.getElementById('addReferenceModal'));
+  modal.hide();
+
+  // Mengosongkan form setelah pengiriman
+  document.getElementById('addReferenceForm').reset();
+});
+
+// Render referensi saat halaman pertama kali dimuat
+document.addEventListener('DOMContentLoaded', function() {
+  renderReferences();
+});
+    </script>
+    
+    <style>
+        /* Menambahkan gaya untuk tanda silang */
+        .delete-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            color: red;
+            cursor: pointer;
+            background-color: white;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .delete-icon:hover {
+            background-color: lightcoral;
+        }
+    </style>
+    
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
